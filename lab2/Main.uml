@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Main</OriginalElement>
+  <nodes>
+    <node x="494.0" y="505.0">Move.WorkUp</node>
+    <node x="173.0" y="406.0">Move.FocusBlast</node>
+    <node x="4.0" y="104.0">Pokemons.Eelektrik</node>
+    <node x="408.0" y="0.0">Pokemons.Torkoal</node>
+    <node x="4.5" y="0.0">Pokemons.Tynamo</node>
+    <node x="0.0" y="604.0">Move.Spark</node>
+    <node x="346.0" y="406.0">Move.ShellSmash</node>
+    <node x="0.0" y="406.0">Move.ChargeBeam</node>
+    <node x="0.0" y="208.0">Pokemons.Eelektross</node>
+    <node x="134.0" y="604.0">Move.Rest</node>
+    <node x="0.0" y="505.0">Move.DoubleTeam</node>
+    <node x="208.0" y="104.0">Pokemons.Simisear</node>
+    <node x="194.0" y="307.0">Move.IronDefense</node>
+    <node x="375.0" y="307.0">Move.ThunderWave</node>
+    <node x="209.5" y="0.0">Pokemons.Pansear</node>
+    <node x="173.0" y="505.0">Move.RockTomb</node>
+    <node x="0.0" y="307.0">Main</node>
+    <node x="335.0" y="505.0">Move.HeatWave</node>
+    <node x="261.0" y="604.0">Move.Leer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Pokemons.Eelektross" target="Pokemons.Eelektrik">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Pokemons.Simisear" target="Pokemons.Pansear">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Pokemons.Eelektrik" target="Pokemons.Tynamo">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="298.5" y="329.0" />
+  <SelectedNodes>
+    <node>Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

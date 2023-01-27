@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Main</OriginalElement>
+  <nodes>
+    <node x="883.75" y="339.0">classes.Winter</node>
+    <node x="656.75" y="306.5">classes.Piglet</node>
+    <node x="0.0" y="605.0">enums.Seasons</node>
+    <node x="522.0" y="0.0">interfaces.ThingInterface</node>
+    <node x="701.75" y="126.0">interfaces.IPiglet</node>
+    <node x="534.0" y="148.0">interfaces.IWinniePooh</node>
+    <node x="251.29166666666674" y="328.5">classes.GrandFather</node>
+    <node x="29.000000000000057" y="351.0">classes.Christopher</node>
+    <node x="173.50000000000006" y="159.0">interfaces.IGrandFather</node>
+    <node x="357.75000000000006" y="159.0">abstracts.RoleAbstract</node>
+    <node x="443.29166666666674" y="306.0">classes.WinniePooh</node>
+    <node x="0.0" y="159.0">interfaces.IChristopher</node>
+    <node x="889.75" y="159.0">abstracts.SeasonAbstract</node>
+    <node x="220.0" y="605.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="classes.Christopher" target="interfaces.IChristopher">
+      <point x="-43.0" y="-82.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="classes.WinniePooh" target="interfaces.IWinniePooh">
+      <point x="46.5" y="-127.0" />
+      <point x="582.7916666666667" y="286.0" />
+      <point x="602.0" y="286.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="classes.Christopher" target="abstracts.RoleAbstract">
+      <point x="43.0" y="-82.0" />
+      <point x="158.00000000000006" y="276.0" />
+      <point x="375.75000000000006" y="276.0" />
+      <point x="-54.0" y="27.0" />
+    </edge>
+    <edge source="classes.Piglet" target="interfaces.IPiglet">
+      <point x="43.0" y="-126.5" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="classes.GrandFather" target="abstracts.RoleAbstract">
+      <point x="43.0" y="-104.5" />
+      <point x="380.29166666666674" y="286.0" />
+      <point x="411.75000000000006" y="286.0" />
+      <point x="-18.0" y="27.0" />
+    </edge>
+    <edge source="classes.Piglet" target="abstracts.RoleAbstract">
+      <point x="-43.0" y="-126.5" />
+      <point x="699.75" y="276.0" />
+      <point x="483.75000000000006" y="276.0" />
+      <point x="54.0" y="27.0" />
+    </edge>
+    <edge source="interfaces.IPiglet" target="interfaces.ThingInterface">
+      <point x="0.0" y="-60.0" />
+      <point x="785.75" y="106.0" />
+      <point x="634.0" y="106.0" />
+      <point x="32.0" y="38.0" />
+    </edge>
+    <edge source="classes.WinniePooh" target="abstracts.RoleAbstract">
+      <point x="-46.5" y="-127.0" />
+      <point x="489.79166666666674" y="286.0" />
+      <point x="447.75000000000006" y="286.0" />
+      <point x="18.0" y="27.0" />
+    </edge>
+    <edge source="interfaces.IGrandFather" target="interfaces.ThingInterface">
+      <point x="0.0" y="-27.0" />
+      <point x="254.50000000000006" y="106.0" />
+      <point x="570.0" y="106.0" />
+      <point x="-32.0" y="38.0" />
+    </edge>
+    <edge source="interfaces.IChristopher" target="interfaces.ThingInterface">
+      <point x="0.0" y="-27.0" />
+      <point x="72.0" y="96.0" />
+      <point x="538.0" y="96.0" />
+      <point x="-64.0" y="38.0" />
+    </edge>
+    <edge source="abstracts.SeasonAbstract" target="interfaces.ThingInterface">
+      <point x="0.0" y="-27.0" />
+      <point x="969.75" y="96.0" />
+      <point x="666.0" y="96.0" />
+      <point x="64.0" y="38.0" />
+    </edge>
+    <edge source="interfaces.IWinniePooh" target="interfaces.ThingInterface">
+      <point x="0.0" y="-38.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="classes.Winter" target="abstracts.SeasonAbstract">
+      <point x="0.0" y="-94.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="classes.GrandFather" target="interfaces.IGrandFather">
+      <point x="-43.0" y="-104.5" />
+      <point x="294.29166666666674" y="266.0" />
+      <point x="254.50000000000006" y="266.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="435.0972222222224" y="308.19444444444446" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
